@@ -1,0 +1,218 @@
+body {
+    font-family: sans-serif;
+}
+
+#tittle {
+    text-align: center;
+}
+
+.time-container {
+    display: grid;
+    grid-template-rows: repeat(9, 70px);
+    grid-template-columns: repeat(6, 200px);
+    text-align: center;
+    border: 2px solid black;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.i {
+    border: 1px solid black;
+    pointer-events: none;
+    transition: transform .3s ease;
+}
+
+.i:hover {
+    transform: scale(1.2);
+}
+
+.i__text {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, .7);
+    overflow: hidden;
+    width: 100%;
+    max-width: 200px;
+    height: 0;
+    transition: height .5s cubic-bezier(0.42, 0, 0.2, 0.99);
+}
+
+.i:hover .i__text {
+    height: 100%;
+}
+
+.i__text__content{
+    user-select: none;
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dia {
+    background-color: lightblue;
+    padding-top: 20px;
+}
+
+.hora {
+    background-color: lightcoral;
+    padding-top: 20px;
+}
+
+.ingles {
+    background-color: magenta;
+    padding-top: 50px;
+}
+
+.i1 {
+    grid-row: 2/4;
+    grid-column-start: 2;
+}
+
+.i2 {
+    grid-row: 4/6;
+    grid-column-start: 3;
+}
+
+.filosofia {
+    background-color: #FF0;
+    padding-top: 50px;
+    grid-row: 2/4;
+    grid-column-start: 3;
+}
+
+.deportes {
+    background-color: #ddd;
+    padding-top: 50px;
+    grid-row: 2/4;
+    grid-column-start: 4;
+}
+
+.fisica {
+    background-color: #5F5;
+    padding-top: 50px;
+}
+
+.f1 {
+    grid-row: 2/4;
+    grid-column-start: 5;
+}
+
+.quimica {
+    background-color: #aFa;
+    padding-top: 50px;
+}
+
+.q1 {
+    grid-row: 2/4;
+    grid-column-start: 6;
+}
+
+.q2 {
+    padding-top: 20px;
+}
+
+.informatica {
+    background-color: rgb(200, 232, 236);
+    padding-top: 50px
+}
+
+.inf1 {
+    grid-row: 4/6;
+    grid-column-start: 2;
+}
+
+.espanol {
+    background-color: #aaf;
+    padding-top: 50px;
+    grid-row: 4/6;
+}
+
+.e1 {
+    grid-column-start: 5;
+}
+
+.e2 {
+    grid-column-start: 6;
+}
+
+.descanso {
+    background-color: gray;
+    padding-top: 20px;
+    grid-column: 2/7;
+}
+
+.trigonometria {
+    background-color: #a0f;
+    padding-top: 20px;
+    grid-row: 7/9;
+}
+
+.t1 {
+    grid-column-start: 2;
+}
+
+.t2 {
+    grid-column-start: 6;
+}
+
+.economia {
+    background-color: #F0a;
+    padding-top: 50px;
+    grid-row: 7/9;
+    grid-column-start: 3;
+}
+
+.etica {
+    background-color: crimson;
+    padding-top: 20px;
+
+}
+
+.musica {
+    background-color: #Faa;
+    padding-top: 50px;
+    grid-row: 7/9;
+    grid-column-start: 5;
+}
+
+.salida {
+    background-color: gray;
+    padding-top: 20px;
+    grid-column: 2/7;
+
+}
+
+.print {
+    width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.print__button {
+    width: 100px;
+    height: 50px;
+
+    background-color: lightgreen;
+    margin: 10px auto;
+
+    padding-top: 20px;
+    font-size: 20px;
+    user-select: none;
+    transition: transform .2s, background-color .2s;
+}
+
+.print__button:hover {
+    transform: scale(1.1);
+    background-color: rgb(29, 212, 29);
+}
+
+.print__button:active {
+    background-color: rgb(39, 117, 39);
+}
