@@ -22,7 +22,7 @@ body {
     transition: transform .3s ease;
 }
 
-.i:hover {
+.i:hover, i:active {
     transform: scale(1.2);
 }
 
@@ -37,7 +37,7 @@ body {
     transition: height .5s cubic-bezier(0.42, 0, 0.2, 0.99);
 }
 
-.i:hover .i__text {
+.i:hover, i:active .i__text {
     height: 100%;
 }
 
@@ -216,3 +216,4 @@ body {
 .print__button:active {
     background-color: rgb(39, 117, 39);
 }
+        
