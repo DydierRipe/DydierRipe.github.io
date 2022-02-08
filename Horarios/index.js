@@ -3,7 +3,7 @@ const printContent = document.querySelector(".time-container");
 
 const rooms = {
     "espanol": "B301",
-    "trigonometria": "B104 Viernes <br>  A106 Lunes",
+    "trigonometria": "B103",
     "ingles": "B304",
     "informatica": "Sala de informatica",
     "filosofia": "A203",
