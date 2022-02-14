@@ -17,6 +17,10 @@ body {
     user-select: none;
 }
 
+.non-important {
+    border: 1px solid black;
+}
+
 .i {
     border: 1px solid black;
     pointer-events: none;
