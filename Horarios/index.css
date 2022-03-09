@@ -25,6 +25,7 @@ body {
     border: 1px solid black;
     pointer-events: none;
     transition: transform .3s ease;
+    overflow: hidden;
 }
 
 .i:hover {
