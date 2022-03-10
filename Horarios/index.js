@@ -39,10 +39,24 @@ const addRooms = () => {
 
     importantChilds.forEach(element => {
         element.style.pointerEvents = "initial";
-        element.innerHTML += `
+        
+        const fragment = document.createDocumentFragment();
+        const iconContainer = document.createElement("DIV");
+        iconContainer.classList.add("i__text");
+        
+        const textContent = document.createElement("H3");
+        textContent.classList.add("i__text__content");
+        textContent.innerHTML = rooms[element.classList[0]];
+        
+        iconContainer.appendChild(textContent);
+        fragment.appendChild(iconContainer);
+        
+        element.appendChild(fragment);
+        
+        /*element.innerHTML += `
         <div class="i__text">
             <h3 class="i__text__content">${rooms[element.classList[0]]}</h3>
-        </div>`
+        </div>`*/
     });
 }
 
