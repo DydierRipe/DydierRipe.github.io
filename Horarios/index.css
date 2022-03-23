@@ -14,18 +14,12 @@ body {
     border: 2px solid black;
     width: fit-content;
     margin: 20px auto;
-    user-select: none;
-}
-
-.non-important {
-    border: 1px solid black;
 }
 
 .i {
     border: 1px solid black;
     pointer-events: none;
     transition: transform .3s ease;
-    overflow: hidden;
 }
 
 .i:hover {
@@ -78,26 +72,33 @@ body {
 
 .i1 {
     grid-row: 4/6;
-    grid-column-start: 3;
+    grid-column-start: 6;
 }
 
 .i2 {
-    grid-row: 2/4;
-    grid-column-start: 5;
+    padding-top: 20px;
+    grid-row: 5/6;
+    grid-column-start: 2;
+}
+
+.i3 {
+    padding-top: 20px;
+    grid-row: 7/8;
+    grid-column-start: 2;
 }
 
 .filosofia {
     background-color: #FF0;
     padding-top: 50px;
-    grid-row: 7/9;
-    grid-column-start: 2;
+    grid-row: 2/4;
+    grid-column-start: 6;
 }
 
 .deportes {
     background-color: #ddd;
     padding-top: 50px;
     grid-row: 7/9;
-    grid-column-start: 4;
+    grid-column-start: 3;
 }
 
 .fisica {
@@ -106,7 +107,7 @@ body {
 }
 
 .f1 {
-    grid-row: 2/4;
+    grid-row: 7/9;
     grid-column-start: 4;
 }
 
@@ -117,7 +118,7 @@ body {
 
 .q1 {
     grid-row: 4/6;
-    grid-column-start: 5;
+    grid-column-start: 4;
 }
 
 .q2 {
@@ -132,7 +133,7 @@ body {
 .inf1 {
     padding-top: 50px;
     grid-row: 2/4;
-    grid-column-start: 2;
+    grid-column-start: 4;
 }
 
 .espanol {
@@ -141,12 +142,12 @@ body {
 }
 
 .e1 {
-    grid-column-start: 2;
-    grid-row: 4/6;
+    grid-column-start: 3;
+    grid-row: 2/4;
 }
 
 .e2 {
-    grid-column-start: 5;
+    grid-column-start: 6;
     grid-row: 7/9;
 }
 
@@ -159,7 +160,7 @@ body {
 .trigonometria {
     background-color: #a0f;
     padding-top: 50px;
-    grid-row: 7/9;
+    grid-row: 4/6;
 }
 
 .t1 {
@@ -167,14 +168,14 @@ body {
 }
 
 .t2 {
-    grid-column-start: 6;
+    grid-column-start: 5;
 }
 
 .economia {
     background-color: #F0a;
     padding-top: 50px;
-    grid-row: 2/4;
-    grid-column-start: 3;
+    grid-row: 7/9;
+    grid-column-start: 5;
 }
 
 .etica {
@@ -185,8 +186,8 @@ body {
 .musica {
     background-color: #Faa;
     padding-top: 50px;
-    grid-row: 4/6;
-    grid-column-start: 6;
+    grid-row: 3/5;
+    grid-column-start: 2;
 }
 
 .salida {
