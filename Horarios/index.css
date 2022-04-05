@@ -39,7 +39,7 @@ body {
 
 .i:hover .i__text {
     height: 100%;
-} 
+}
 
 .i__text__content{
     user-select: none;
@@ -67,88 +67,30 @@ body {
 
 .ingles {
     background-color: magenta;
-    padding-top: 50px;
-}
-
-.i1 {
-    grid-row: 4/6;
-    grid-column-start: 6;
-}
-
-.i2 {
-    padding-top: 20px;
-    grid-row: 5/6;
-    grid-column-start: 2;
-}
-
-.i3 {
-    padding-top: 20px;
-    grid-row: 7/8;
-    grid-column-start: 2;
 }
 
 .filosofia {
     background-color: #FF0;
-    padding-top: 50px;
-    grid-row: 2/4;
-    grid-column-start: 6;
 }
 
 .deportes {
     background-color: #ddd;
-    padding-top: 50px;
-    grid-row: 7/9;
-    grid-column-start: 3;
 }
 
 .fisica {
     background-color: #5F5;
-    padding-top: 50px;
-}
-
-.f1 {
-    grid-row: 7/9;
-    grid-column-start: 4;
 }
 
 .quimica {
     background-color: #aFa;
-    padding-top: 50px;
-}
-
-.q1 {
-    grid-row: 4/6;
-    grid-column-start: 4;
-}
-
-.q2 {
-    padding-top: 20px;
 }
 
 .informatica {
     background-color: rgb(200, 232, 236);
-    padding-top: 20px
-}
-
-.inf1 {
-    padding-top: 50px;
-    grid-row: 2/4;
-    grid-column-start: 4;
 }
 
 .espanol {
     background-color: #aaf;
-    padding-top: 50px;
-}
-
-.e1 {
-    grid-column-start: 3;
-    grid-row: 2/4;
-}
-
-.e2 {
-    grid-column-start: 6;
-    grid-row: 7/9;
 }
 
 .descanso {
@@ -159,42 +101,24 @@ body {
 
 .trigonometria {
     background-color: #a0f;
-    padding-top: 50px;
-    grid-row: 4/6;
-}
-
-.t1 {
-    grid-column-start: 3;
-}
-
-.t2 {
-    grid-column-start: 5;
 }
 
 .economia {
     background-color: #F0a;
-    padding-top: 50px;
-    grid-row: 7/9;
-    grid-column-start: 5;
 }
 
 .etica {
     background-color: crimson;
-    padding-top: 20px;
 }
 
 .musica {
     background-color: #Faa;
-    padding-top: 50px;
-    grid-row: 3/5;
-    grid-column-start: 2;
 }
 
 .salida {
     background-color: gray;
     padding-top: 20px;
     grid-column: 2/7;
-
 }
 
 .print {
