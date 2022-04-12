@@ -41,7 +41,7 @@ window.onafterprint = () => {
         if (!element.classList.contains("NPE"))
         element.style.pointerEvents = "initial";
     });
-    printContent.style.transform = "rotate(0deg) translateX(-60px)";
+    printContent.style.transform = "rotate(0deg) translateX(0)";
     printContent.style.gridTemplateColumns = "repeat(6, 200px)"
 
     const printButton = document.querySelector(".print");
