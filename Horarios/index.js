@@ -25,6 +25,9 @@ const subjects = {
 }
 
 printDoc.addEventListener("click", () => {
+    Array.from(printContent.children).forEach(element => {
+        element.style.pointerEvents = "none";
+    });
     printContent.style.transform = "rotate(90deg) translateX(60px)";
     printContent.style.gridTemplateColumns = "repeat(6, 150px)";
 
@@ -34,6 +37,10 @@ printDoc.addEventListener("click", () => {
 });
 
 window.onafterprint = () => {
+    Array.from(printContent.children).forEach(element => {
+        if (!element.classList.contains("NPE"))
+        element.style.pointerEvents = "initial";
+    });
     printContent.style.transform = "rotate(0deg) translateX(-60px)";
     printContent.style.gridTemplateColumns = "repeat(6, 200px)"
 
