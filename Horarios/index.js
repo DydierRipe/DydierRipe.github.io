@@ -42,7 +42,8 @@ window.onafterprint = () => {
         element.style.pointerEvents = "initial";
     });
     printContent.style.transform = "rotate(0deg) translateX(0)";
-    printContent.style.gridTemplateColumns = "repeat(6, 200px)"
+    printContent.style.gridTemplateColumns = "repeat(6, 200px)";
+    document.documentElement.scrollTop = document.body.scrollTop = 0;
 
     const printButton = document.querySelector(".print");
     printButton.style.display = "block";
