@@ -55,67 +55,67 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.dia {
+.day {
     background-color: lightblue;
     padding-top: 20px;
 }
 
-.hora {
+.hour {
     background-color: lightcoral;
     padding-top: 20px;
 }
 
-.ingles {
-    background-color: magenta;
+.english {
+    background-color: #ff00ff;
 }
 
-.filosofia {
-    background-color: #FF0;
+.philosophy {
+    background-color: #ffff00;
 }
 
-.deportes {
-    background-color: #ddd;
+.sports {
+    background-color: rgb(107, 107, 107);
 }
 
-.fisica {
-    background-color: #5F5;
+.physics {
+    background-color: #00ff00;
 }
 
-.quimica {
-    background-color: #aFa;
+.chesmitry {
+    background-color: #00aeff;
 }
 
-.informatica {
-    background-color: rgb(200, 232, 236);
+.computer-cience {
+    background-color: #00f7ff;
 }
 
-.espanol {
-    background-color: #aaf;
+.spanish {
+    background-color: rgb(0, 0, 255);
 }
 
-.descanso {
+.break {
     background-color: gray;
     padding-top: 20px;
     grid-column: 2/7;
 }
 
-.trigonometria {
-    background-color: #a0f;
+.trigonometry {
+    background-color: rgb(170, 0, 255);
 }
 
-.economia {
-    background-color: #F0a;
+.economy {
+    background-color: #ff00aa;
 }
 
-.etica {
-    background-color: crimson;
+.ethics {
+    background-color: rgb(255, 0, 51);
 }
 
-.musica {
-    background-color: #Faa;
+.music {
+    background-color: #ff9900;
 }
 
-.salida {
+.out {
     background-color: gray;
     padding-top: 20px;
     grid-column: 2/7;
