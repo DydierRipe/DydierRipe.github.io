@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Horarios 1003</title>
+    <link rel="icon" href="Photos/FarfaLove.png">
+
+    <!--Roboto font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="index.css">
+  </head>
+
+  <body>
+
+    <h1 id="tittle">HORARIO 1003</h1>
+        
+    <!--Shedule object-->
+    <div class="time-container">
+
+      <!--
+        NPE: class that indicates which objects should not have a hover event
+        day: indicates that the object display what day is it
+        hour: indicates that the object display what time is it
+        break: indicates the break time
+        out: indicates the out time
+        i: icon config
+        non-important: object that only takes up space
+      -->
+
+      <div class="NPE non-important"></div>
+      <div class="NPE day i">Lunes</div>
+      <div class="NPE day i">Martes</div>
+      <div class="NPE day i">Miercoles</div>
+      <div class="NPE day i">Jueves</div>
+      <div class="NPE day i">Viernes</div>
+      
+      <div class="NPE hour i">6:00</div>
+      <div class="NPE hour i">7:00</div>
+      <div class="NPE hour i">8:00</div>
+      <div class="NPE hour i">9:00</div>
+
+      <div class="NPE hour i">10:00 - 10:20</div>
+      <div class="NPE break i">Descanso</div>
+
+      <div class="NPE hour i">10:20</div>
+      <div class="NPE hour i">11:00</div>
+      <div class="NPE hour i">12:00</div>
+      <div class="NPE out i">Salida (temporal)</div>
+
+    </div>
+
+    <!--print button-->
+    <div class="print">
+      <h3>¿Lo quieres impreso? No te preocupes, haz click</h3>
+      <div class="print__button">Aqui</div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
