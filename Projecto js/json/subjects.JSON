@@ -1,0 +1,20 @@
+{
+    "quimica1": {"room" : "B302", "start" : 6, "time" : 1, "day" : 1, "Sname" : "Quimica", "name" : "chesmitry"},
+    "musica": {"room" : "Sala de Musica", "start" : 7, "time" : 2, "day" : 1, "Sname" : "Musica", "name" : "music"},
+    "ingles1": {"room" : "B304", "start" : 9, "time" : 1, "day" : 1, "Sname" : "Ingles", "name" : "english"},
+    "ingles2": {"room" : "B304", "start" : 10, "time" : 1, "day" : 1, "Sname" : "Ingles", "name" : "english"},
+    "fisica1": {"room" : "Laboratorio de Fisica", "start" : 11, "time" : 1, "day" : 1, "Sname" : "Fisica", "name" : "physics"},
+    "espanol1": {"room" : "B301", "start" : 6, "time" : 2, "day" : 2, "Sname" : "Español", "name" : "spanish"},
+    "trigonometria1": {"room" : "B103", "start" : 8, "time" : 2, "day" : 2, "Sname" : "Trigonometria", "name" : "trigonometry"},
+    "deportes": {"room" : "Salon de Deportes 1", "start" : 10, "time" : 2, "day" : 2, "Sname" : "Deportes", "name" : "sports"},
+    "informatica1": {"room" : "Sala de Informatica 1", "start" : 6, "time" : 2, "day" : 3, "Sname" : "Informatica", "name" : "computer-cience"},
+    "quimica2": {"room" : "B302", "start" : 8, "time" : 2, "day" : 3, "Sname" : "Quimica", "name" : "chesmitry"},
+    "fisica2": {"room" : "Laboratorio de Fisica", "start" : 10, "time" : 2, "day" : 3, "Sname" : "Fisica", "name" : "physics"},
+    "informatica2": {"room" : "Sala de Informatica 1", "start" : 6, "time" : 1, "day" : 4,"Sname" : "Informatica", "name" : "computer-cience"},
+    "etica": {"room" : "B104", "start" : 7, "time" : 1, "day" : 4, "Sname" : "Etica", "name" : "ethics"},
+    "trigonometria2": {"room" : "B103", "start" : 8, "time" : 2, "day" : 4, "Sname" : "Trigonometria", "name" : "trigonometry"},
+    "economia": {"room" : "B104", "start" : 10, "time" : 2, "day" : 4, "Sname" : "Economia", "name" : "economy"},
+    "filosofia": {"room" : "A203", "start" : 6, "time" : 2, "day" : 5, "Sname" : "Filosofia", "name" : "philosophy"},
+    "ingles3": {"room" : "B304", "start" : 8, "time" : 2, "day" : 5, "Sname" : "Ingles", "name" : "english"},
+    "espanol2": {"room" : "B301", "start" : 10, "time" : 2, "day" : 5, "Sname" : "Español", "name" : "spanish"}
+}
