@@ -6,6 +6,12 @@ body {
     text-align: center;
 }
 
+.homeworks {
+    right: 200px;
+    z-index: 30;
+    width: 200px;
+}
+
 .time-container {
     display: grid;
     grid-template-rows: repeat(9, 70px);
@@ -99,7 +105,7 @@ body {
     grid-column: 2/7;
 }
 
-.trigonometry {
+.calculus {
     background-color: rgb(170, 0, 255);
 }
 
@@ -111,7 +117,7 @@ body {
     background-color: rgb(255, 0, 51);
 }
 
-.music {
+.dance {
     background-color: #ff9900;
 }
 
@@ -150,12 +156,11 @@ body {
 }
 
 .error-messaje {
-    background-color: #B6B6B6;
+    background-color: #e9e9e9;
     width: 40vw;
     height: fit-content;
     padding: 20px;
 
-    margin: auto;
-    top: 50%;
-    transform: translateX(50%);
+    margin:  50vh auto;
+    transform: translateY(-50%);
 }
