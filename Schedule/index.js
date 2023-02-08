@@ -2,6 +2,9 @@
 
 const printDoc = document.querySelector(".print__button"); // print button object
 const printContent = document.querySelector(".time-container"); // shedule object
+const homeworks = document.querySelector(".homeworks");
+
+let code = prompt();
 
 /* json that contains all the information for each class
         room is the text displayed when the object is hovered
@@ -54,7 +57,7 @@ const addSubjects = subjects => {
         const fragment = document.createDocumentFragment(); // create fragment
         const subject = document.createElement("DIV"); // create div element
 
-        subject.classList.add(element.name, "i"); // puts as a class "i" and the correspondient css class
+        subject.classList.add(element.name, "i", "subject"); // puts as a class "i" and the correspondient css class
         subject.textContent = element.Sname; // puts the subject name
         subject.style.gridColumnStart = element.day + 1; //the value sums 1 because the colums number includes the time colum
         if (element.start < 10) //before the break starts
@@ -73,16 +76,26 @@ const addSubjects = subjects => {
             subject.style.paddingTop = "50px";
         }
 
-        subject.appendChild(addRooms(subject, element)); // appends hover config
+        if (code == "Tebaldo") {
+            subject.appendChild(addRooms(subject, element, "profe")); // appends hover config
+        } else {
+            subject.appendChild(addRooms(subject, element)); // appends hover config
+        }
+
+        subject.addEventListener("click", () => {
+            
+            
+            subject.classList[0]
+        });
 
         fragment.appendChild(subject);
         printContent.appendChild(fragment);
 
-    };
+    }
 }
 
 // hover config
-const addRooms = (frame, element) => {
+const addRooms = (frame, element, elem="room") => {
 
     frame.style.pointerEvents = "initial";
     const iconContainer = document.createElement("DIV");
@@ -90,7 +103,7 @@ const addRooms = (frame, element) => {
         
     const textContent = document.createElement("H3");
     textContent.classList.add("i__text__content");
-    textContent.innerHTML = element.room;
+    textContent.innerHTML = element[elem];
         
     iconContainer.appendChild(textContent);
 
@@ -118,7 +131,9 @@ const createErrorMessage = (errorCode, errorMess) => {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-const subjectsFile = fetch("subjects.JSON");
+const subjectsFile = fetch("../json/subjects.JSON");
+
+homeworks.style.transform = `${document.body.style.height}px`;
 
 subjectsFile.then(res => {
     if (!res.ok)
