@@ -131,9 +131,7 @@ const createErrorMessage = (errorCode, errorMess) => {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-const subjectsFile = fetch("../json/subjects.JSON");
-
-homeworks.style.transform = `${document.body.style.height}px`;
+const subjectsFile = fetch("..subjects.JSON");
 
 subjectsFile.then(res => {
     if (!res.ok)
