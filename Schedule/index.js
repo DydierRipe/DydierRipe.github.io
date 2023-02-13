@@ -131,7 +131,7 @@ const createErrorMessage = (errorCode, errorMess) => {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-const subjectsFile = fetch("..subjects.JSON");
+const subjectsFile = fetch("subjects.JSON");
 
 subjectsFile.then(res => {
     if (!res.ok)
