@@ -1,0 +1,220 @@
+@font-face {
+    font-family: "Banksia";
+    src: url("banksiafont/Banksia-Regular.otf") format("opentype");
+}
+
+* {
+    font-family: "Banksia";
+}
+
+body {
+    overflow: hidden;
+}
+
+.game-scene {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 10vh 90vh;
+    background-color: rgb(0, 136, 255);
+    z-index: -2;
+}
+
+.score-frame {
+    width: min-content;
+    margin: auto;
+    margin-top: 5px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    column-gap: 20px;
+}
+
+.score-point {
+    border-radius: 30%;
+    height: 50px;
+    width: 50px;
+    background-color: #00000063;
+    transform: translateY(-100px) rotate(-365deg);
+
+    /*animation-name: PointIn;
+    animation-duration: .7s;
+    animation-timing-function: cubic-bezier(.66,1.88,.65,.92);
+    animation-fill-mode: forwards;
+
+    animation-name: PointOut;
+    animation-duration: .7s;
+    animation-timing-function: cubic-bezier(.34,-0.18,.26,-0.4);*/
+}
+
+.score-point > img {
+    margin: 5px 5px;
+    height: 40px;
+}
+
+.result-text {
+    display: block;
+    position: absolute;
+    opacity: 0%;
+    top: 60vh;
+    font-size: 80px;
+    width: 100%;
+    text-align: center;
+
+    /*animation-name: FadeIn;
+    animation-duration: 3.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;*/
+}
+
+.indicator {
+    position: absolute;
+    transform: translateX(110vw) rotate(45deg);
+    height: 60vh;
+    width: 60vh;
+    top: 20vh;
+    z-index: 20;
+
+    /*animation-name: ShowScore;
+    animation-duration: 3.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;*/
+}
+
+#indicatorImg1, #indicatorImg2 {
+    margin: 5vh 5vh;
+    height: 48vh;
+    width: 48vh;
+}
+
+.shadow {
+    z-index: 11;
+}
+
+.correct {
+    background-color: #71d310;
+}
+
+.wrong {
+    background-color: #bb1e1e;
+}
+
+.correct-answer {
+    color: #71d310;
+    box-shadow: 0px 0px 0px 10px #fff;
+}
+
+.wrong-answer {
+    color: #dd0e0e;
+    box-shadow: 0px 0px 0px 10px #fff;
+}
+
+.game-frame {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 25% 75%;
+}
+
+.question-frame {
+    height: 100%;
+}
+
+.question-decoration {
+    height: 20.1%;
+    width: 70%;
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    border-radius: 35px;
+    left: 15%;
+
+    transform: translateY(calc(-100px - 100vh)) rotate(-35deg);
+
+    /*animation-name: QuestionIn;
+    animation-duration: .7s;
+    animation-timing-function: cubic-bezier(.66,1.88,.65,.92);
+    animation-fill-mode: forwards;
+
+    animation-name: QuestionOut;
+    animation-duration: .7s;
+    animation-timing-function: cubic-bezier(.34,-0.18,.26,-0.4);*/
+
+    z-index: -1;
+}
+
+.question {
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 35px;
+    height: 90%;
+    width: 70%;
+
+    transform: translateY(calc(-100px - 100vh)) rotate(-35deg);
+
+    /*animation-name: RQuestionIn;
+    animation-duration: .7s;
+    animation-timing-function: cubic-bezier(.66,1.88,.65,.92);
+    animation-fill-mode: forwards;
+
+    animation-name: RQuestionOut;
+    animation-duration: .7s;
+    animation-timing-function: cubic-bezier(.34,-0.18,.26,-0.4);*/
+
+    z-index: 10;
+}
+
+.question > p {
+    margin: 0%;
+    text-align: center;
+    font-size: 60px;
+
+    transform: translateY(calc(-100px - 100vh)) rotate(-35deg);
+
+    /*animation-name: QuestionIn;
+    animation-duration: .7s;
+    animation-timing-function: cubic-bezier(.66,1.88,.65,.92);
+    animation-fill-mode: forwards;
+
+    animation-name: QuestionOut;
+    animation-duration: .7s;
+    animation-timing-function: cubic-bezier(.34,-0.18,.26,-0.4);*/
+}
+
+.answers-frame {
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(4, 25%);
+}
+
+.answers {
+    position: relative;
+    font-size: 60px;
+    margin: auto;
+    background-color: #fffb;
+    border-radius: 35px;
+    padding-top: 15px;
+    height: 70%;
+    width: 80%;
+
+    transform: translateX(-2000px);
+
+    /*animation-name: AnswerIn;
+    animation-duration: .7s;
+    animation-timing-function: cubic-bezier(.66,1.88,.65,.92);
+    animation-fill-mode: forwards;
+
+    animation-name: AnswerOut;
+    animation-duration: .7s;
+    animation-timing-function: cubic-bezier(.34,-0.18,.26,-0.4);*/
+}
+
+.answers:hover {
+    box-shadow: 0px 0px 0px 10px #000;
+    background-color: #fff;
+}
+
+.answers:active {
+    box-shadow: 0px 0px 0px 10px #fff;
+    background-color: #fff;
+}

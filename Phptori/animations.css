@@ -1,0 +1,116 @@
+@keyframes QuestionIn {
+    0% {
+        transform: translateY(calc(-100px - 100vh)) rotate(-35deg);
+    }
+
+    100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+}
+
+@keyframes QuestionOut {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+
+    100% {
+        transform: translateY(calc(-100px - 100vh)) rotate(-35deg);
+    }
+}
+
+@keyframes RQuestionIn {
+    0% {
+        transform: translateY(calc(-100px - 100vh)) rotate(-35deg);
+    }
+
+    100% {
+        transform: translateY(calc(-22vh * 90 / 100)) rotate(2deg);
+    }
+}
+
+@keyframes RQuestionOut {
+    0% {
+        transform: translateY(calc(-10vh * 90 / 100)) rotate(2deg);
+    }
+
+    100% {
+        transform: translateY(calc(-100px - 100vh)) rotate(-35deg);
+    }
+}
+
+@keyframes AnswerIn {
+    0% {
+        transform: translateX(-2000px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes AnswerOut {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(-2000px);
+    }
+}
+
+@keyframes PointIn {
+    0% {
+        transform: translateY(-100px) rotate(-365deg);
+    }
+
+    100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+}
+
+@keyframes PointOut {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+
+    100% {
+        transform: translateY(-100px) rotate(-365deg);
+    }
+}
+
+@keyframes Result {
+    0% {
+        transform: translateX(110vw) rotate(45deg);
+    }
+
+    100% {
+        transform: translateX(calc(-10vw - 60vh)) rotate(-45deg);
+    }
+}
+
+@keyframes ShowScore {
+    0% {
+        transform: translateX(110vw) rotate(45deg);
+        top: 20vh;
+    }
+
+    20% {
+        transform: translateX(calc(50vw - 25vh)) rotate(0deg);
+        top: 20vh;
+    }
+
+    100% {
+        transform: translateX(calc(50vw - 30vh)) rotate(0deg) scale(.5);
+        top: 5vh;
+    }
+}
+
+@keyframes FadeIn {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}

@@ -1,0 +1,52 @@
+[
+    {
+        "question": "Que es un script",
+        "answers": ["Un programa informatico", "Un plato tipico finlandez", "El codigo fuente entero de la app", "Otro nombre para xampp"],
+        "correct": "Un programa informatico"
+    },
+    {
+        "question": "Cuales son lenguajes de programacion para crear paginas web",
+        "answers": ["Php y Javascript","html y css","C y C++","Whitespace"],
+        "correct": "Php y Javascript"
+    },
+    {
+        "question": "Que es php",
+        "answers": ["Un lenguaje de programacion web","Tu papa que se fue por cigarros","Un entorno grafico ejecutable","Un lenguaje de marcado"],
+        "correct": "Un lenguaje de programacion web"
+    },
+    {
+        "question": "Que programa se utiliza para ejecutar php",
+        "answers": ["Xampp","Rojo","Visual Studio","Net beans"],
+        "correct": "Xampp"
+    },
+    {
+        "question": "Que significa la terminación .php",
+        "answers": ["Que en el archivo hay codigo php","Agua manantial (promocion no pagada)","Que se ejectuta html","Que se hizo una pagina web"],
+        "correct": "Que en el archivo hay codigo php"
+    },
+    {
+        "question": "Con que función se muestra el texto en pantalla",
+        "answers": ["Con echo","Con console.log()","Con cout >>","Con css"],
+        "correct": "Con echo"
+    },
+    {
+        "question": "Como se usa una función",
+        "answers": ["NombreDeFuncion();","Usandola","const funcion = () => {}","kamikase"],
+        "correct": "NombreDeFuncion();"
+    },
+    {
+        "question": "Define el tipo de tipado de php",
+        "answers": ["Debil","Fuerte","POO","Negro"],
+        "correct": "Debil"
+    },
+    {
+        "question": "Cuales son tipos de variables",
+        "answers": ["String, Integrer, Boolean","Marmol, Vidrio, Madera","Null, php, js","Windows, mac, linux"],
+        "correct": "String, Integrer, Boolean"
+    },
+    {
+        "question": "Como se enlaza php en html",
+        "answers": ["Mandando info desde un formulario","Tu mama en bici","usando <?php en tu archivo html","Copiando el codigo de internet"],
+        "correct": "Mandando info desde un formulario"
+    }
+]
